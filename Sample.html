@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Sample.css">
+</head>
+
+<body>
+<div class="col row">
+<div class="col-sm-6">
+    <table id="calculator">
+        <tr>
+       <td colspan="3"> <input type="text" id="result" readonly></td>
+            <td><input type="button" value="clear" onclick="clearInput()"></td>
+        </tr>
+        <tr >
+            <td><input type="button" value="1" onclick="append('1')"></td>
+            <td><input type="button" value="2" onclick="append('2')"></td>
+            <td><input type="button" value="3" onclick="append('3')"></td>
+            <td><input type="button" value="/" onclick="append('/')"></td>
+        </tr>
+            <tr>
+            <td><input type="button" value="4" onclick="append('4')"></td>
+            <td><input type="button" value="5" onclick="append('5')"></td>
+            <td><input type="button" value="6" onclick="append('6')"></td>
+            <td><input type="button" value="*" onclick="append('*')"></td>
+        </tr>
+            <tr>
+            <td><input type="button" value="7" onclick="append('7')"></td>
+            <td><input type="button" value="8" onclick="append('8')"></td>
+            <td><input type="button" value="9" onclick="append('9')"></td>
+             <td><input type="button" value="-" onclick="append('-')"></td>
+            </tr>
+             <tr>
+            <td><input type="button" value="0" onclick="append('0')"></td>
+            <td><input type="button" value="." onclick="append('.')"></td>
+            <td><input type="button" value="=" onclick="calculate()"></td>
+            <td><input type="button" value="+" onclick="append('+')"></td>
+        </tr>
+            
+           
+            
+           
+
+
+
+        <!-- </div> -->
+         
+    </table>
+</div>
+</div>
+
+
+
+</body>
+<script src="Sample.js"></script>
+</html>
